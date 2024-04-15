@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/main.uss?fileID=7433441132597879392&amp;guid=cd9ef9395c4d5214aae94c4acf482613&amp;type=3#main" />
+    <ui:VisualElement name="LowerRight" style="flex-grow: 1; position: absolute; bottom: 0; right: 0;">
+        <ui:VisualElement name="LowerRightMenu" style="flex-grow: 1;">
+            <ui:Button text="End Turn" parse-escape-sequences="true" display-tooltip-when-elided="true" name="EndTurnButton" class="ld55-button" style="transition-property: background-color; transition-duration: 1s; transition-timing-function: ease; transition-delay: 0s;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="WinGameMessageBox" style="flex-grow: 1; position: absolute; top: 30%; align-self: center; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(178, 160, 117); display: none;">
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="You Beat It!" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Font/beholder/Beholder%20SDF%201.asset?fileID=11400000&amp;guid=ae38fe123d54a534b9caf49077944c65&amp;type=2#Beholder SDF 1&quot;); font-size: 36px;" />
+            <ui:Label tabindex="-1" text="Thanks for playing!" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Font/beholder/Beholder%20SDF%201.asset?fileID=11400000&amp;guid=ae38fe123d54a534b9caf49077944c65&amp;type=2#Beholder SDF 1&quot;); font-size: 36px;" />
+            <ui:Button text="Yay! Back to the level select." parse-escape-sequences="true" display-tooltip-when-elided="true" name="WinGameMessageBoxOkButton" class="ld55-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="WinLevelMessageBox" style="flex-grow: 1; position: absolute; top: 30%; align-self: center; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(178, 160, 117); display: none;">
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="You Beat the Level!" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Font/beholder/Beholder%20SDF%201.asset?fileID=11400000&amp;guid=ae38fe123d54a534b9caf49077944c65&amp;type=2#Beholder SDF 1&quot;); font-size: 36px;" />
+            <ui:Button text="Yay! Back to the level select." parse-escape-sequences="true" display-tooltip-when-elided="true" name="WinLevelMessageBoxOkButton" class="ld55-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="LoseLevelMessageBox" style="flex-grow: 1; position: absolute; top: 30%; align-self: center; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(178, 160, 117); display: none;">
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Oh no! You lost!" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="false" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Font/beholder/Beholder%20SDF%201.asset?fileID=11400000&amp;guid=ae38fe123d54a534b9caf49077944c65&amp;type=2#Beholder SDF 1&quot;); font-size: 36px;" />
+            <ui:Button text="I&apos;ll try again!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LoseLevelMessageBoxRetryButton" class="ld55-button" />
+            <ui:Button text="Take me back to the level select" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LoseLevelMessageBoxLevelSelectButton" class="ld55-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

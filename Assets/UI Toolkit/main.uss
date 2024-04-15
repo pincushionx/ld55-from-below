@@ -1,0 +1,20 @@
+.ld55-button {
+    -unity-font-definition: url("project://database/Assets/Assets/Font/beholder/Beholder%20SDF%201.asset?fileID=11400000&guid=ae38fe123d54a534b9caf49077944c65&type=2#Beholder SDF 1");
+    font-size: 20px;
+    background-image: none;
+    background-color: rgb(194, 166, 95);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-left-color: rgb(3, 43, 67);
+    border-right-color: rgb(3, 43, 67);
+    border-top-color: rgb(3, 43, 67);
+    border-bottom-color: rgb(3, 43, 67);
+    -unity-text-align: middle-center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    color: rgb(3, 43, 67);
+}

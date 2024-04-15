@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/main.uss?fileID=7433441132597879392&amp;guid=cd9ef9395c4d5214aae94c4acf482613&amp;type=3#main" />
+    <ui:VisualElement name="FullScreen" style="flex-grow: 1;">
+        <ui:VisualElement name="TopContainer" style="flex-grow: 0;">
+            <ui:Label tabindex="-1" text="From Below" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 48px; -unity-font-definition: url(&quot;project://database/Assets/Assets/Font/beholder/Beholder%20SDF%201.asset?fileID=11400000&amp;guid=ae38fe123d54a534b9caf49077944c65&amp;type=2#Beholder SDF 1&quot;); -unity-text-align: upper-center; padding-top: 30px; padding-right: 30px; padding-bottom: 30px; padding-left: 30px; color: rgb(63, 136, 197);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BottomContainer" style="flex-grow: 1; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; flex-direction: row;">
+            <ui:VisualElement name="LevelSelectContainer" style="flex-grow: 0; flex-basis: 50%; flex-shrink: 0; align-items: flex-start; padding-right: 100px;">
+                <ui:Label tabindex="-1" text="Choose A level below to play" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Font/beholder/Beholder%20SDF%201.asset?fileID=11400000&amp;guid=ae38fe123d54a534b9caf49077944c65&amp;type=2#Beholder SDF 1&quot;); font-size: 24px; -unity-text-align: upper-center; color: rgb(63, 136, 197);" />
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:ScrollView name="LevelSelectItems" mode="VerticalAndHorizontal" horizontal-scroller-visibility="Auto" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="RightContainer" style="flex-grow: 0; width: 50%; flex-shrink: 0;">
+                <ui:VisualElement name="HowToPlayContainer" style="flex-grow: 0;" />
+                <ui:Label tabindex="-1" text="How to play" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Font/beholder/Beholder%20SDF%201.asset?fileID=11400000&amp;guid=ae38fe123d54a534b9caf49077944c65&amp;type=2#Beholder SDF 1&quot;); font-size: 24px; -unity-text-align: upper-center; color: rgb(63, 136, 197);" />
+                <ui:Label tabindex="-1" text="The goal is to capture all summoning tiles by summoning demons to do your bidding. Those are the coloured ones. The green ones are yours, the red ones are your opponents. There are also tiles that belong to nobody (yet!). You use your mouse for all actions.&#10;&#10;You summon demons by clicking on a green summoning tile and then clicking on summoning cards. Summoning requires sacrifice. You first choose the card that you want to summon, then you sacrifice more of the same suit to summon the demon. The number of sacrifices is written on the cards, next to the suit.&#10;&#10;You can fight your opponent by clicking on your summoned demon, then on the opponent&apos;s demon, as long as your demon can move the distance. When you&apos;re out of moves. Click &quot;End turn&quot;.&#10;&#10;Good luck and thanks for playing!" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-definition: url(&quot;project://database/Assets/Assets/Font/beholder/Beholder%20SDF%201.asset?fileID=11400000&amp;guid=ae38fe123d54a534b9caf49077944c65&amp;type=2#Beholder SDF 1&quot;); font-size: 20px; -unity-text-align: upper-left; color: rgb(63, 136, 197); white-space: normal;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

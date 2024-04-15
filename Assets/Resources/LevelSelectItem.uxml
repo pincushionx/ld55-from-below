@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/main.uss?fileID=7433441132597879392&amp;guid=d4292e8cdb6768a4b93a031a192f0c69&amp;type=3#main" />
+    <ui:VisualElement name="LevelSelectItem" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0);">
+        <ui:Button text="Start" display-tooltip-when-elided="true" name="LevelSelectButton" class="button text" style="width: 190px; height: 90px; padding-left: 6px; padding-right: 6px; padding-top: 5px; padding-bottom: 5px;" />
+    </ui:VisualElement>
+</ui:UXML>
